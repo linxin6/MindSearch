@@ -40,4 +40,5 @@ gpt4 = dict(type=GPTAPI,
             key=os.environ.get('OPENAI_API_KEY', 'YOUR OPENAI API KEY'))
 deepseek_coder = dict(type=GPTAPI,
             model_type='deepseek-coder',
-            key=os.environ.get('OPENAI_API_KEY', 'YOUR OPENAI API KEY'))
+            key=os.environ.get('OPENAI_API_KEY', 'YOUR OPENAI API KEY'),
+            url="https://api.deepseek.com")
