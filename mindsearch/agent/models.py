@@ -38,3 +38,6 @@ internlm_hf = dict(type=HFTransformerCasualLM,
 gpt4 = dict(type=GPTAPI,
             model_type='gpt-4-turbo',
             key=os.environ.get('OPENAI_API_KEY', 'YOUR OPENAI API KEY'))
+deepseek_coder = dict(type=GPTAPI,
+            model_type='deepseek-coder',
+            key=os.environ.get('OPENAI_API_KEY', 'YOUR OPENAI API KEY'))
